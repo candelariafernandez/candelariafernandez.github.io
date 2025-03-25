@@ -161,7 +161,7 @@ direccion: columnss */
    font-size: 60px;
 }
 .gallery{
-    /* background-color:black; */
+     background-color:white;
 }
 .splide__slide{
     margin: 1%;
@@ -179,7 +179,7 @@ direccion: columnss */
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 100;
+    z-index: 1100;
 }
 .img-window img{
 max-height: 80vh;
@@ -220,7 +220,7 @@ max-width: 80vh;
 .img-btn-prev :hover {
     opacity: 0.8;
 }
-
+/* ABOUT */
 .about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -266,42 +266,6 @@ max-width: 80vh;
     font-style: italic;
     margin-right: 5px;
 }
-/* .contactImgContainer{
-    perspective: 1px;
-    height: 100vh;
-    width: 980px;
-    height: 607px;
-    object-fit: cover;
-    object-position: 50% 50%;
-    overflow-y: auto;
-    overflow-x: hidden;
-} */
-
-/* .parallax {
-    perspective: 10px;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
-  .parallax__layer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .parallax__layer--base {
-    transform: translateZ(0);
-  }
-  .parallax__layer--back {
-    transform: translateZ(-50px) scale(5);
-  } */
-
-/* .contactImg {
-    -webkit-transform: translateZ(-999px) scale(2);
-    transform: translateZ(-999px) scale(2);
-    z-index: 2;
-} */
 
 .contact{
     display: grid;
@@ -312,7 +276,7 @@ max-width: 80vh;
 }
 .contact-main h2{
     margin: 32px 0;
-    font-size: var(--h2-font);
+    font-size: 50px;
     color: white;
 }
 .contact-main h2 span{
@@ -326,13 +290,13 @@ max-width: 80vh;
     color: white
 }
 .email p{
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 5px;
     color: white
 }
 .email h6{
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 600;
     color: white;
 }
@@ -354,9 +318,16 @@ max-width: 80vh;
 }
 .contact .contact-main ::before{
     color: white;
+    font-size: 50px;
+
+}
+.contact .h-line{
+    color: white;
+    font-size: 30px;
 }
 .contact .contact{
     color: white;
+    font-size: 30px;
 }
 form input::placeholder,
 form textarea::placeholder{
@@ -403,3 +374,5 @@ form .submit-btn:hover{
     border-radius: 1.7rem;
     font-size: 22px;
 }
+
+
