@@ -85,7 +85,6 @@ header::before {
 .menulist button {
   background-color: transparent;
   color: white;
-  position: center;
   margin-bottom: 40px;
   font-size: 50px;
   border: none;
@@ -496,7 +495,10 @@ form .submit-btn:hover {
   .bx-menu:before {
     font-size: 40px;
   }
-
+  .menulist button {
+    position: relative;
+    z-index: 3;
+  }
   #menu-icon {
     display: block;
   }
